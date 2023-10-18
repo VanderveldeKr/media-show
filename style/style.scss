@@ -1,0 +1,29 @@
+// Базовые настройки
+@import "../style/settings/base";
+@import "../style/settings/reset";
+
+//Главная
+@import "../style/header/header";
+@import "../style/home/home";
+// Услуги
+@import "../style/services/services";
+// Контакты
+@import "../style/contacts/contacts";
+// Подвал
+@import "../style/footer/footer";
+// Pop-Up
+@import "../style/pop-up/popup";
+// Аbout
+@import "../style/about/about";
+@import "../style/about/mobile-about";
+
+// mobile 
+@import "../style/header/mobile-header";
+@import "../style/home/mobile-home";
+@import "../style/services/mobile-services";
+@import "../style/contacts/mobile-contacts";
+@import "../style/footer/mobile-footer";
+@import "../style/pop-up/mobile-popup";
+
+
+

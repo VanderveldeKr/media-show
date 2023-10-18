@@ -1,0 +1,126 @@
+@media screen and (max-width: 1300px) {
+    .home__title--media {
+        font-size: 130px;
+    }
+    .home__title--show {
+        font-size: 130px;
+    }
+    .home__title--production {
+        font-size: 150px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .home__pod-title {
+        margin-bottom: 80px;
+        width: 500px;
+    }
+    .home__title--media {
+        font-size: 90px;
+    }
+    .home__title--show {
+        font-size: 90px;
+    }
+    .home__title--production {
+        font-size: 110px;
+    }
+    .home-nav {
+        bottom: 0;
+    }
+    .sub-title__text {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .home {
+        z-index: 2;
+    }
+    .home__title--media {
+        font-size: 70px;
+    }
+    .home__title--show {
+        font-size: 70px;
+    }
+    .home__title--production {
+        font-size: 90px;
+    }
+
+}
+.home__sub-text {
+    display: none;
+}
+@media screen and (max-width: 620px) {
+    .home__sub-text {
+        display: block;
+        font-size: 14px;
+        line-height: 17px;
+        color: #fff;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .home__sub-title {
+        display: none;
+    }
+    .home-nav {
+        display: none;
+    }
+    .home::after {
+        top: -340px;
+        left: -200px;
+        width: 2400px;
+        height: 1900px;
+        z-index: -1;
+    }
+    .home__title--show::after {
+        display: none;
+    }
+    .home__pod-title {
+        display: none;
+    }
+    .home-wrapper {
+        margin-top: 110px;
+    }
+    .home {
+        background-image: url(/image/background-img/bacground-home-mobile.png);
+        background-size: 100% 150%;
+        z-index: -1;
+    }
+    .home__title {
+        align-items: start;
+    }
+    .home__title--block {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .home__title--media {
+        line-height: 40px;
+        font-size: 70px;
+    }
+    .home__title--show {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .home__title--production {
+        letter-spacing: -5px;
+        font-family: 'ActayWide-Bold';
+        font-size: 53px;
+        line-height: 35px;
+    }
+    .home-wrapper .contact-btn {
+        width: 100%;
+    }
+    .home-wrapper .contact-btn button {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .home__title--media {
+        font-size: 60px;
+    }
+    .home__title--show {
+        font-size: 70px;
+    }
+    .home__title--production {
+        font-size: 43px;
+    }
+}

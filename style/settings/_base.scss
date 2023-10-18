@@ -1,0 +1,82 @@
+// Подключение шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "Actay-Regular";  
+    src: url("/fonts/Actay-Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Actay-RegularItalic";  
+    src: url("/fonts/Actay-RegularItalic.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ActayWide-Bold";  
+    src: url("/fonts/ActayWide-Bold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ActayWide-BoldItalic";  
+    src: url("/fonts/ActayWide-BoldItalic.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+.body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    position: relative;
+    overflow-x: hidden;
+}
+.main {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.interregular {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.title-style {
+    font-family: 'Actay-Regular';
+}
+
+.contact-btn__style {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+}
+
+.decortion-btn {
+    position: relative;
+    background: rgba($color: #ffffff, $alpha: 0);
+    z-index: 1;
+}
+
+.decortion-btn::after {
+    background: linear-gradient(50deg, #651DDB, #CD00FA);
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .7s;
+    border-radius: 50px;
+}
+.decortion-btn:hover::after {
+    opacity: 1;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 620px) {
+    .pop-up__body {
+        width: 100%;
+        height: auto;
+    }
+    .pop-up__body-text {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .pop-up__body-text h2{
+        font-size: 22px;
+        line-height: 28px;
+    
+    }
+    .pop-up__body-text p{
+        font-size: 14;
+        line-height: 16px;
+    }
+}

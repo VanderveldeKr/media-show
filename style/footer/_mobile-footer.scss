@@ -1,0 +1,29 @@
+@media screen and (max-width: 620px) {
+    .footer {
+        z-index: 3;
+    }
+    .footer-wrapper__mobile {
+        display: block;
+        z-index: 1;
+    }
+    .footer-wrapper {
+        display: none;
+    }
+    .footer-wrapper__mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 82px 0;
+    }
+    .footer-group__logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-social ul {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,50 @@
+@media screen and (max-width: 900px) {
+    .about-wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .about-title {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .about-title__text {
+        font-size: 90px;
+        line-height: 95px;
+    }
+    .about-cards__text ul li {
+        list-style-type: none;
+    }
+    .about-column__right, .about-column__left {
+        gap: 50px;
+        width: 100%;
+    }
+    .about-column__right {
+        padding-top: 0;
+    }
+    .about-card__text {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 620px) {
+    .about-card__text p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .about-cards__text ul li {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .about-cards__text ul {
+        gap: 5px;
+    }
+    .about-title {
+        margin-bottom: 50px;
+    }
+    .about-title__text {
+        font-size: 69px;
+        text-align: center;
+    }
+    .contacts-card__text {
+        width: 100%;
+    }
+}

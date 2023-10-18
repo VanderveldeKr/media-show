@@ -1,0 +1,41 @@
+@media screen and (max-width: 620px) {
+
+.header-logo a img {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+}
+.header-menu__nav {
+    gap: 5px;
+}
+.header-menu__link {
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    position: relative;
+    transition: .2s;
+    opacity: .8;
+}
+
+}
+@media screen and (max-width: 400px) {
+
+.header-logo a img {
+    width: 80%;
+    max-width: none;
+    height: 100%;
+}
+.header-menu__nav {
+    gap: 2px;
+}
+.header-menu__link {
+    font-size: 12px;
+    padding: 4px 9px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    position: relative;
+    transition: .2s;
+}
+
+}

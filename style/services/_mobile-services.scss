@@ -1,0 +1,131 @@
+@media screen and (max-width: 1300px) {
+      .services-title h2 {
+        font-size: 85px;
+        line-height: 95px;
+      }
+}
+@media screen and (max-width: 1200px) {
+    .services-title { 
+        margin-bottom: 70px;
+      }
+    .big-cards__text {
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .group-card-bot {
+        margin-top: 0;
+    }
+    .services__big-cards {
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+    .services__group-card {
+        width: 45%;
+        align-items: center;;
+    }
+}
+@media screen and (max-width: 900px) {
+    .services__group-card {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .services {
+        padding-bottom: 70px;
+        padding-top: 50px;
+        z-index: 1;
+    }
+    .services::after {
+        bottom: 13%;
+        width: 100%;
+        height: 90%;
+        z-index: -1;
+    }
+    .services__big-card {
+        width: 100%;
+        align-items: center;
+    }
+    .services-title h2 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .accordion-item-header {
+        display: none;
+    }
+    .accordion-item-body-content {
+        gap: 15px;
+        height: auto;
+        padding: 15px 30px;
+    }
+    .big-card__button {
+        display: none;
+    }
+    .title-style {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .bib-cards__title h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .services__big-cards {
+        gap: 29px;
+        margin-top: 29px;
+    }
+    .big-cards__indent {
+        margin: 0;
+        gap: 0;
+    }
+    .services__group-card {
+        gap: 0; 
+    }
+    .services__big-card__none {
+        display: none;  
+    }
+    .services__small-card {
+        width: 110%;
+        padding: 20px 0;
+        border: none;
+        border-bottom: 2px solid #fff;
+        border-radius: 0;
+        gap: 0;
+    }
+    .big-cards__text {
+        display: none;
+    }
+
+    .big-card__button-none {
+        display: block;
+        z-index: 1;
+        width: 100%;
+        margin: 65px auto 0;
+    }
+    .big-card__button-none button {
+        padding: 25px 0;
+    }
+    .marquee-wrapper__bot, .marquee-wrapper__top {
+        display: none;
+    }
+    .services__big-card {
+        padding: 17px 18px 17px 18px;
+    }
+    .services-card__img {
+        border-radius: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .services-card__img img {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .services-title h2 {
+        font-size: 46px;
+        line-height: 42px;
+    }
+}
+
